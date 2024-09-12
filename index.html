@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="renderer" content="webkit" />
+		<meta name="screen-orientation" content="portrait" />
+		<meta name="x5-orientation" content="portrait" />
+		<title>板探智眸</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<!-- 引入 layui.js -->
+		<script src="//unpkg.com/layui@2.9.13/dist/layui.js"></script>
+		<!-- 引入 layui.css -->
+		<link href="//unpkg.com/layui@2.9.13/dist/css/layui.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="barwrap clearfix">
+			<a href="index.html" class="logo"><img src="img/titlelogo.png" /></a>
+			<ul class="navbar">
+				<li class="on">
+					<a href="index.html">网站首页<b></b></a>
+				</li>
+				<li>
+					<a href="case.html">项目展示<b></b></a>
+				</li>
+				<li>
+					<a href="news.html">技术路线<b></b></a>
+				</li>
+				<li>
+					<a href="details.html">关于我们<b></b></a>
+				</li>
+				<li>
+					<a href="contact.html">联系我们<b></b></a>
+				</li>
+			</ul>                                                                                                    
+			<div class="div2">				
+				<!-- <h3>
+					<button type="button" class="layui-btn layui-bg-blue">用户中心</button>
+				</h3> -->
+				<h3>
+				    <button type="button" class="layui-btn layui-bg-blue" onclick="window.location.href='http://127.0.0.1:8000/'">用户中心</button>
+				</h3>
+				<span class="zoom"><img src="img/zoom.png"/></span>
+			</div>
+		</div>
+		
+		<div class="search-box clearfix">
+			<span class="search-close"><img src="img/close.png"/></span>
+			<div class="div">
+				<div class="clearfix">
+					<input type="text" value="" placeholder="请输入关键词" onfocus="this.placeholder=''" onblur="this.placeholder='请输入关键词'" class="fl in" />
+					<input type="submit" name="" id="" value="搜索" class="sub fl" />
+				</div>
+				<p>
+					<strong>热搜关键词:</strong>
+					<a href="">刨花板</a>
+					<a href="">人工智能</a>
+					<a href="">AI </a>
+					<a href="">人造板</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="banner">
+			<ul class="bannerfix slides clearfix">
+				<li>
+					<img class="bimg" src="img/banner.jpg" />
+					<div class="txt">
+						<img src="img/图片1.png" class="t1"/>
+						<img src="img/图片2.png" class="t2"/>
+					</div>
+				</li>
+				<li>
+					<img class="bimg" src="img/新建文件夹/top.png" />
+					<div class="txt">
+						<img src="img/图片1.png" class="t1"/>
+						<img src="img/图片2.png" class="t2"/>
+					</div>
+				</li>
+				<li>
+					<img class="bimg" src="img/新建文件夹/top1.jpg" />
+					<div class="txt">
+						<img src="img/图片1.png" class="t1"/>
+						<img src="img/图片2.png" class="t2"/>
+					</div>
+				</li>
+			</ul>
+			<div class="bamnline"><span></span></div>
+		</div>
+		
+		<div class="index-sec1">
+			<ul class="clearfix ul1">
+				<li>
+					<a href="">
+						<img src="img/f1.png"/>
+						<div>
+							<h3>精益求精·自强不息</h3>
+							<p>Decoration Industry Chain</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/f2.png"/>
+						<div>
+							<h3>深入细致·洞察细微</h3>
+							<p>Focus on high-end decoration</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/f3.png"/>
+						<div>
+							<h3>专业团队·硕果累累</h3>
+							<p>Fruitful and highly praised</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/f4.png"/>
+						<div>
+							<h3>人工智能专业资质证书</h3>
+							<p>National Building Qualifications</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/f5.png"/>
+						<div>
+							<h3>自主开发·众志成城</h3>
+							<p>Hidden Works Free Lifelong Warranty</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="sec1-intro">
+				<div class="intro-cont">
+					<div class="left wow fadeInLeft" data-wow-delay='1s' data-wow-duration='1.3s' >
+						<img src="img/tu1.png"/>
+						<div class="div1">
+							<div class="spanline">
+								<span class="span1"></span>
+								<span class="span2"></span>
+								<span class="span3"></span>
+							</div>
+							<div>
+								<h3>精益求精</h3>
+								<p>constantly improve something</p>
+							</div>
+						</div>
+					</div>
+					<div class="right wow fadeInRight" data-wow-delay='1.5s' data-wow-duration='1.3s'>
+						<div class="tit">
+							<img src="img/Project_Introduction.png" class="t1"/>
+							<h2>项目介绍</h2>
+							<b></b>
+						</div>
+						<h3>洞悉微瑕，卓越无界</h3>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;本项目使用机器学习与深度学习算法，基于Pytorch框架的YOLOV5目标检测算法和U-net深度学习分割网络算法，
+							可对纤维板、刨花板、胶合板等多种板材进行表面缺陷检测，针对目前90%以上人造板企业以人工肉眼检测为主，
+							导致生产效率低、人造板产量低等行业痛点，自主研发人造板表面缺陷智能检测系统，实现对多种板材表面缺陷的实时检测，
+							准确率高达95%以上，检测效率显著提升。旨在符合国家政策的前提下提高人造板质量，实现产业升级和节能减排的目标。</p>
+							<p>
+						“ECHO团队”寓意深远，它不仅代表着技术创新的传承与回响，象征着团队对前人智慧的继承与发扬，以及技术创新成果在
+						未来持续激励后来者的愿景；同时，它也体现了团队对市场反馈的快速响应与精准调整，追求技术与市场的和谐共振。
+						此外，“ECHO”还强调团队内部的紧密合作与协同作用，以及致力于开发具有广泛影响力的技术和产品，推动行业进步，不忘初心，
+						珍惜每一次创新与合作的经历。
+							</p>
+						
+					</div>
+				</div>				
+				<div class="color-bg wow fadeInLeftBig"  data-wow-duration='2s' ></div>
+			</div>			
+		</div>
+		
+		<div class="index-sec2 box">
+			<div class="title wow fadeInUp"  data-wow-delay='0.2s' data-wow-duration='1s'>
+				<img src="img/projectper.png"/>
+				<h3>项目展示</h3>
+			</div>
+			<div class="tab-hd wow fadeInUp"  data-wow-delay='0.5s' data-wow-duration='1.3s'>
+				<ul>
+					<li class="on">
+						<a href="">
+							<i></i>
+							<p>信息官网</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i></i>
+							<p>检测系统</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-bd wow fadeInUp"  data-wow-delay='1s' data-wow-duration='2s' >
+				<div class="tab-pal on">
+					<div class="swiper-container" id="swiper1">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">名片型官网<i></i></p>
+				            			<img src="img/p1.jpg"/>
+				            			<div class="mask">
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			名片型官网
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">公司级后台管理<i></i></p>
+				            			<img src="img/p2.jpg"/>
+				            			<div class="mask">
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			公司级后台管理
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">可视化网页<i></i></p>
+				            			<img src="img/p3.jpg"/>
+				            			<div class="mask">
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			可视化网页
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">多元化管理<i></i></p>
+				            			<img src="img/p4.jpg"/>
+				            			<div class="mask">
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			多元化管理
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">案例展示<i></i></p>
+				            			<img src="img/tu4.png"/>
+				            			<div class="mask">
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			北京路格林豪泰
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">案例展示<i></i></p>
+				            			<img src="img/tu4.png"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			北京路格林豪泰
+				            		</p>
+				            	</a>
+				            </div>
+				        </div>
+				        <!-- Add Pagination -->
+				        	<span class="line"></span>
+<!-- 				        	 <div class="swiper-button-prev"><</div>
+				   			 <div class="swiper-button-next">></div> -->
+				   			
+				   	 </div>
+				</div>
+				<div class="tab-pal">
+					<div class="swiper-container" id="swiper2">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">缺陷精准检测<i></i></p>
+				            			<img src="img/j1.png"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			缺陷精准检测
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">实时统计分析<i></i></p>
+				            			<img src="img/j2.png"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			实时统计分析
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">数据可视化分析<i></i></p>
+				            			<img src="img/j1.png"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			数据可视化分析
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">检测报告<i></i></p>
+				            			<img src="img/baogao.jpg"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			检测报告生成
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">案例展示<i></i></p>
+				            			<img src="img/tu5.png"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			北京路格林豪泰
+				            		</p>
+				            	</a>
+				            </div>
+				             <div class="swiper-slide">
+				            	<a href="">
+				            		<figure>
+				            			<p class="p1">案例展示<i></i></p>
+				            			<img src="img/tu5.png"/>
+				            			<div class="mask">
+<!-- 				            				<span><i>+</i></span>
+				            				<p class="p3">case more</p> -->
+				            				<div class="mask-bg"></div>
+				            			</div>
+				            		</figure>
+				            		<p class="p2">
+				            			北京路格林豪泰
+				            		</p>
+				            	</a>
+				            </div>
+				        </div>
+				        <!-- Add Pagination -->
+				       		 <span class="line"></span>
+<!-- 				   			 <div class="swiper-button-next">></div>
+				   			 <div class="swiper-button-prev"><</div> -->
+				   	 </div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="index-sec3 box">
+			<div class="title wow fadeInUp"  data-wow-delay='0.2s' data-wow-duration='1s'>
+				<img src="img/Techadvantages.png"/>
+				<h3>技术优势</h3>
+			</div>
+			<ul class="wow fadeInUp"  data-wow-delay='0.5s' data-wow-duration='2s'>
+				<li>
+					<a href="">
+						<div class="cir"></div>
+						<a href="https://yolov8.com/">
+						<h3>YOLOv8s目标检测算法</h3>
+						<h4>Professional Decoration Service Provider</h4>
+						<p>
+							YOLOv8s，一种先进的目标检测算法，基于深度学习技术，通过优化骨干网络和检测头设计，实现了高效且精准的目标检测。它采用Anchor-Free方法，直接预测目标框，提升了检测灵活性。YOLOv8s在实时速度和检测精度上均表现出色，广泛应用于安防、监控等领域，是目标检测领域的集大成之作。
+						</p>
+						<div class="div1">
+							<strong>01</strong>
+							<b>01</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="cir"></div>
+						<!-- <h3>多领域的专业整合团队</h3> -->
+						<a href="https://github.com/matterport/Mask_RCNN">
+						<h3>MASK R-CNN图像分割算法</h3>
+						<h4>Professional Integration Team</h4>
+						<p>MASK R-CNN，一种先进的图像分割算法，它结合了目标检测与实例分割，能在识别图像中物体的同时，对每个物体进行精确到像素级别的分割。通过区域提议网络（RPN）和全卷积网络（FCN），MASK R-CNN实现了高精度的图像分割，特别适用于复杂场景下的目标识别和分割任务。</p>
+						<div class="div1">
+							<strong>02</strong>
+							<b>02</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://xinghuo.xfyun.cn/">
+						<div class="cir"></div>
+						<h3>科大讯飞星火Spark 4.0 Ultra大模型</h3>
+						<h4>iFLYTEK Spark 4.0 Ultra large model</h4>
+						<p>
+							最强大的大语言模型版本，文本生成、语言理解、知识问答、逻辑推理、数学能力等方面实现超越GPT 4-Turbo，优化联网搜索链路，提供更精准回答。旗舰级大语言模型，具有千亿级参数，核心能力全面升级，具备更强的数学、中文、代码和多模态能力。适用于数理计算、逻辑推理等对效果有更高要求的业务场景。</p>
+						<div class="div1">
+							<strong>03</strong>
+							<b>03</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://docs.djangoproject.com/zh-hans/5.1/">
+						<div class="cir"></div>
+						<h3>Django和Flask框架结合应用</h3>
+						<h4>A combination of Django and Flask frameworks</h4>
+						<p>通过将不同的服务分配给最适合它们的框架，可以更有效地利用系统资源。将高并发处理的API服务部署在Flask上，能够更快地响应请求并处理更多的并发连接。Django则可以专注于提供丰富的Web界面和复杂的数据处理功能。
+</p>
+						<div class="div1">
+							<strong>04</strong>
+							<b>04</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://echarts.apache.org/zh/index.html">
+						<div class="cir"></div>
+						<h3>基于百度Echarts数据可视化平台</h3>
+						<h4>Baidu Echarts data visualization platform</h4>
+						<p>基于百度ECharts数据可视化平台，构建出高效、美观的数据可视化系统。通过结合前端技术的灵活性和后端数据处理的能力，可对多项数据进行数据可视化，无论是处理大规模的数据集，还是进行复杂的数据分析，ECharts都能提供强大的支持。</p>
+						<div class="div1">
+							<strong>05</strong>
+							<b>05</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://www.mysql.com/cn/">
+						<div class="cir"></div>
+						<h3>MySQL数据库</h3>
+						<h4>MySQL database</h4>
+						<p>
+							MySQL是一种开源的关系型数据库管理系统，以高性能、免费使用、易于操作及跨平台著称。它支持多种存储引擎，满足多样化需求，且拥有庞大的开发者社区。MySQL在数据处理、存储和管理方面表现出色，广泛应用于各类应用和企业系统中。
+						</p>
+						<div class="div1">
+							<strong>06</strong>
+							<b>06</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://www.pytorch.wiki/">
+						<div class="cir"></div>
+						<h3>PyTorch深度学习框架</h3>
+						<h4>PyTorch deep learning framework</h4>
+						<p>
+							PyTorch是Facebook开源的深度学习框架，以动态计算图、Python深度集成、GPU加速和自动微分为核心优点。简化了神经网络构建，支持高效数据加载，广泛应用于AI领域，是深度学习研究与开发的优选工具。
+						</p>
+						<div class="div1">
+							<strong>07</strong>
+							<b>07</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://doc.qt.io/qtforpython-6/">
+						<div class="cir"></div>
+						<h3>PyQt构建检测界面</h3>
+						<h4>PyQt builds the detection interface</h4>
+						<p>
+							PyQt，基于Qt的Python GUI库，以Python构建美观、交互性强的跨平台界面。在检测应用中，使用PyQt提供直观操作界面，加速开发流程，是Python开发者实现高效图形化应用的首选框架，为用户提供简便的操作页面。
+						</p>
+						<div class="div1">
+							<strong>08</strong>
+							<b>08</b>
+						</div>						
+					</a>
+				</li>
+				<li>
+					<a href="https://layui.dev/">
+						<div class="cir"></div>
+						<h3>Layui、SimpleUI</h3>
+						<h4>Open-source UI component library</h4>
+						<p>
+							Layui与SimpleUI均为前端UI框架，Layui注重模块化，开发便捷，适合快速搭建美观界面；SimpleUI则基于Bootstrap，界面简洁，集成度高，适用于后台管理系统开发，两者均提升了前端开发效率与界面美观度。
+						</p>
+						<div class="div1">
+							<strong>09</strong>
+							<b>09</b>
+						</div>						
+					</a>
+				</li>
+			</ul>
+		</div>
+	
+		<div class="index-sec4 wow fadeInUp"  data-wow-delay='0.2s' data-wow-duration='1s'>			
+			<div class="sec4-cont">
+				<div class="div1">
+					<h3>需要我们帮忙吗？给我们发个邮箱</h3>
+					<img src="img/qqmail.png"/>
+				</div>
+				<div class="div2">
+					<a class="btn-11" href="contact.html">contact   us</a>
+				</div>
+			</div>			
+		</div>
+		
+		<div class="index-sec5 box">
+			<div class="title wow fadeInUp"  data-wow-delay='0.2s' data-wow-duration='1s'>
+				<img src="img/innovatvalue.png"/>
+				<h3>创新价值</h3>
+			</div>
+			<ul class="wow fadeInUp" data-wow-delay='0.2s' data-wow-duration='1s'>
+				<li>
+					<a href="">
+						<figure>
+							<img src="img/新建文件夹/first1.jpg"/>
+						</figure>
+						<figcaption>
+							<h5>技术融合创新</h5>
+							<p>将机器学习与深度学习算法有效结合,在人造板行业表面缺陷检测中具有显著的技术创新性。</p>
+							<div class="div1">
+								<b></b><span>many  more</span>
+							</div>
+						</figcaption>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="img/新建文件夹/first2.jpg"/>
+						</figure>
+						<figcaption>
+							<h5>高效率替代传统检测</h5>
+							<p>自主研发的智能检测系统实现了实时、高效的自动化检测，显著提升了生产效率。</p>
+							<div class="div1">
+								<b></b><span>many  more</span>
+							</div>
+						</figcaption>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="img/新建文件夹/first3.jpg"/>
+						</figure>
+						<figcaption>
+							<h5>高精度推动产业升级</h5>
+							<p>检测高精度将推动人造板行业向智能化、自动化方向发展，有助于提升整个行业的生产效率和产品质量</p>
+							<div class="div1">
+								<b></b><span>many  more</span>
+							</div>
+						</figcaption>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="img/新建文件夹/first4.jpg"/>
+						</figure>
+						<figcaption>
+							<h5>符合国家政策导向</h5>
+							<p>本项目的研发符合国家政策对产业升级和节能减排的要求</p>
+							<div class="div1">
+								<b></b><span>many  more</span>
+							</div>
+						</figcaption>
+					</a>
+				</li>
+			</ul>
+			<!-- <a class="btn-3 wow fadeInUp" data-wow-delay='0.2s' data-wow-duration='1s' href="#"><span>more  news</span></a> -->
+		</div>
+	
+		<div class="footer">			
+				<div class="div1">
+					<a href=""><img src="img/titlelogo.png"/></a>
+				</div>
+				<div class="div2">
+					<div class="addr">
+						<p class="p2">
+							服务热线：15668480095<br />
+							Email：1174445894@qq.com<br />
+							地址：山东省济南市历城区经十东路23000号<br />
+						</p>
+					</div>
+					<div class="code">
+						<div>
+							<img src="img/wxh.jpg"/>
+							<p>微信号</p>
+						</div>
+					</div>
+				</div>			
+		</div>
+
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/plugin.js"></script>		
+		<script src="js/swiper.min.js"></script>
+		<script src="js/SuperSlide.2.1.3.js"></script>		
+		<script src="js/wow.js"></script>
+		<script src="js/more.js"></script>	
+		
+		<script>
+				
+			if(!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+				new WOW().init();
+			};
+			
+			//tab切换 图片滚动			
+			var swiper1 = new Swiper('#swiper1', {
+				slidesPerView: 4,
+				spaceBetween: 10,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+			});
+		
+			var swiper2 = new Swiper('#swiper2', {
+				slidesPerView: 4,
+				spaceBetween: 10,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+		
+			});
+			
+			jQuery(".index-sec2").slide({
+				titCell: ".tab-hd li",
+				mainCell: ".tab-bd",
+				delayTime: 0
+			});
+		</script>
+	
+  </body>
+
+</html>
